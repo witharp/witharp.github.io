@@ -293,7 +293,7 @@ $(function(){
             }
         },
         export: function(){
-            var username = prompt("Please enter your name");
+            var username = prompt("Please enter your nickname");
             if(typeof username !== 'string') return;
             else if (username.length ) username = '(' + username + ')';
 
